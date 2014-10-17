@@ -1,0 +1,10 @@
+name             'secure-wordpress-cookbook'
+maintainer       'Simon Kaluza'
+maintainer_email 'kaluza.simon@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures Wordpress and Iptables'
+long_description 'Installs/Configures Wordpress and Iptables'
+version          '0.1.0'
+
+depends 'iptables'
+depends 'wordpress'
